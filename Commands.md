@@ -25,3 +25,20 @@ cd [ -qsLP ] {+|-}n
 
 # rm
 <img width="1592" alt="image" src="https://user-images.githubusercontent.com/45315180/112748081-c9112d80-8fb9-11eb-83c8-80a943d6fde2.png">
+
+# cp
+https://www.geeksforgeeks.org/cp-command-linux-examples/
+
+# mv
+<img width="1587" alt="image" src="https://user-images.githubusercontent.com/45315180/112750395-ac302680-8fc8-11eb-815d-297d42d4ff36.png">
+
+# df (free disk space)
+https://www.geeksforgeeks.org/df-command-linux-examples/
+
+# du
+<img width="1589" alt="image" src="https://user-images.githubusercontent.com/45315180/112751341-bc96d000-8fcd-11eb-8556-871109044616.png">
+
+# echo (print input)
+```bash
+echo [-n] [string ...]
+```
