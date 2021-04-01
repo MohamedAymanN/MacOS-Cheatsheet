@@ -42,3 +42,6 @@ https://www.geeksforgeeks.org/df-command-linux-examples/
 ```bash
 echo [-n] [string ...]
 ```
+
+# lsof
+docs
