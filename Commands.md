@@ -45,3 +45,8 @@ echo [-n] [string ...]
 
 # lsof
 docs
+
+## View all listening tcp ports
+```bash
+lsof -PiTCP -sTCP:LISTEN
+```
