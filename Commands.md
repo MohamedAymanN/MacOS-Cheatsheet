@@ -50,3 +50,8 @@ docs
 ```bash
 lsof -PiTCP -sTCP:LISTEN
 ```
+
+# Last modfied file in a directory
+```bash
+ls -t | head -n1
+```
