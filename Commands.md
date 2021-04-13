@@ -55,3 +55,8 @@ lsof -PiTCP -sTCP:LISTEN
 ```bash
 ls -t | head -n1
 ```
+# Process Status
+```bash
+ps
+```
+https://www.geeksforgeeks.org/ps-command-in-linux-with-examples/
