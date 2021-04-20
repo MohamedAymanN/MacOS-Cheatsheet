@@ -60,3 +60,18 @@ ls -t | head -n1
 ps
 ```
 https://www.geeksforgeeks.org/ps-command-in-linux-with-examples/
+
+# chmod (Change files/directories permissions)
+https://www.computerhope.com/unix/uchmod.htm
+
+# chown (Change files/directories owner)
+https://www.computerhope.com/unix/uchown.htm
+
+# Head (Show first X Lines from a file)
+https://www.computerhope.com/unix/uhead.htm
+
+# Tail (Show last X Lines from a file)
+https://www.computerhope.com/unix/utail.htm
+
+# Curl
+https://www.computerhope.com/unix/curl.htm
