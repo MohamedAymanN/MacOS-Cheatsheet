@@ -75,3 +75,6 @@ https://www.computerhope.com/unix/utail.htm
 
 # Curl
 https://www.computerhope.com/unix/curl.htm
+
+# Find
+https://www.computerhope.com/unix/ufind.htm
