@@ -34,6 +34,9 @@ https://www.geeksforgeeks.org/cp-command-linux-examples/
 
 # df (free disk space)
 https://www.geeksforgeeks.org/df-command-linux-examples/
+```bash
+df -h
+```
 
 # du
 <img width="1589" alt="image" src="https://user-images.githubusercontent.com/45315180/112751341-bc96d000-8fcd-11eb-8556-871109044616.png">
@@ -78,3 +81,75 @@ https://www.computerhope.com/unix/curl.htm
 
 # Find
 https://www.computerhope.com/unix/ufind.htm
+
+# Alias
+ - Give another name to a command
+```bash
+alias cls=clear
+```
+# Diff
+ - Compares two text files
+ ```bash
+ diff -y -W 70 alpha1.txt alpha2.txt --suppress-common-lines
+ ```
+# Finger
+ - Info about user
+```bash
+finger <user>
+```
+# free
+ - Shows free memory duhh
+```bash
+free -h
+```
+# grep
+ - Searches for lines which contain a search pattern
+
+# groups
+ - Telss you which groups a user belongs to
+
+# gzip
+ - zips files
+ - use `-k` to retain the original file too
+```bash
+gzip -k <fileName>
+```
+# history
+ - Show history of commands
+ - Use ! <number> to redo command
+ - Use !! to redo last command
+
+# passwd
+- Lets you change password for a user
+
+# ping
+ - Lets you verify that you have network connectivity with another network device
+```bash
+ping -a 192.168.1.1
+```
+
+# tar
+ - create an archive file
+ - (-z) for faster compression or (-j) for superior slower compression
+```bash
+tar -cvzf <archiveName>.tar.gz <dir>/
+```
+ - Extract an archive file using:
+ - Use (-z) to extract from a ".tar.gz" archive
+ - Use (-j) to extract from a ".tar.bz2" archive
+```bash
+tar -xvf <archiveName>.tar
+```
+
+# whoami
+ - find the current logged user
+
+# w
+ - lists the current logged in users
+
+# uname
+ - List system info
+   - Use  -a (all) option to see everything.
+   - Use  -s (kernel name) option to see the type of kernel.
+   - Use  -r (kernel release) option to see the kernel release.
+   - Use  -v (kernel version) option to see the kernel version.
