@@ -153,3 +153,8 @@ tar -xvf <archiveName>.tar
    - Use  -s (kernel name) option to see the type of kernel.
    - Use  -r (kernel release) option to see the kernel release.
    - Use  -v (kernel version) option to see the kernel version.
+
+# Get all LISTENING ports
+```bash
+lsof -i | grep ':[0-9]* (LISTEN)'   
+```
